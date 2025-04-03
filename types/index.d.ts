@@ -40,7 +40,7 @@ interface User {
 
 interface InterviewCardProps {
   id?: string;
-  userId?: string;
+  userid?: string;
   role: string;
   type: string;
   techstack: string[];
@@ -63,7 +63,7 @@ interface RouteParams {
 
 interface GetFeedbackByInterviewIdParams {
   interviewId: string;
-  userId: string;
+  userid: string;
 }
 
 interface GetLatestInterviewsParams {
